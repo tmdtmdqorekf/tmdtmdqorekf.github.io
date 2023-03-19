@@ -1,0 +1,44 @@
+body {
+    background-image: url("./starnight.JPG");
+    background-size: 50rem;
+}
+
+div{
+    position: absolute;
+    left: 29rem;
+    top: 14rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu {
+    text-decoration: none;
+    color: rgb(229, 237, 240);
+    font-family: 'Freestyle Script';
+    font-size: 28px;
+}
+
+.menu:hover {
+    color:teal;
+    transition: 0.4s;
+}
+
+.album {
+    position: absolute;
+    margin: 4rem 0 0 35rem;
+}
+
+.home {
+    position: absolute;
+    margin: 4rem 0 0 45rem;
+}
+
+.playlists {
+    position: absolute;
+    margin: 4rem 0 0 54rem;
+}
