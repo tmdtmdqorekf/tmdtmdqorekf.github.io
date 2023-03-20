@@ -1,0 +1,133 @@
+body {
+    background-image: url("./starnight.JPG");
+    background-size: 50rem;
+}
+
+.header-container {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+    margin-left: 29.7rem;
+    margin-top: 4.5rem;
+}
+
+.home {
+    margin: 0 5rem 0 5rem;
+}
+
+.menu {
+    text-decoration: none;
+    color: rgb(229, 237, 240);
+    font-family: 'Freestyle Script';
+    font-size: 28px;
+    margin: 0 3.8rem 0 3.8rem;
+}
+
+.menu:hover {
+    color: teal;
+    transition: 0.4s;
+}
+
+p{
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.highlight {
+    display: inline;
+    box-shadow: inset 0 -18px 0 #1a5b69;
+}
+.hov:hover {
+    transform: translateY(-8px);
+    transition: 0.5s;
+}
+
+.christmas-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.christmas-text {
+    margin-left: 15rem;
+}
+
+.ece-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.3rem;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    width: 160vh;
+}
+
+.ece-text {
+    text-align: right;
+    margin-right: 10rem;
+}
+
+.normal-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.normal-text {
+    text-align: center;
+}
+
+.kibs-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.kibs-text{
+    text-align: left;
+    margin-left: 15rem;
+}
+
+.kibs2-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50vh;
+}
+
+.kibs3-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    height: 36vh;
+}
+
+.kibs2-text{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.comp-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+    align-items: center;
+    height: 180vh;
+    width: 160vh;
+}
+
+.comp-text{
+    text-align: right;
+    margin-right: 10rem;
+}
