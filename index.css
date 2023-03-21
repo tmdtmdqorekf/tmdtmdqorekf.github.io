@@ -3,22 +3,43 @@ body {
     background-size: 50rem;
 }
 
+
+.lp-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+}
+
 .lp {
-    position: relative;
-    float: left;
-    top: 50px;
-    left: 510px;
     border-radius: 50%;
     animation: rolling-lp 7s linear infinite;
 }
+
+.move:hover {
+    transform: translateY(-7px);
+}
+
+.audio-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 p{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: small;
     color: grey;
-    position: relative;
-    float: left;
-    top: 600px;
-    left: 180px;
+    text-align: left;
 }
 
 a{
@@ -29,17 +50,6 @@ a{
 a:visited {
     color: white;
     text-decoration: none;
-}
-
-.move:hover {
-    transform: translateY(-7px);
-}
-
-.audio {
-    position: absolute;
-    float: left;
-    top: 560px;
-    left: 590px;
 }
 
 @keyframes rolling-lp {
