@@ -4,13 +4,10 @@ body {
 }
 
 .header-container {
-    display: flex;
     position: fixed;
-    justify-content: center;
-    align-items: center;
-    height: 3vh;
-    margin-left: 29.7rem;
-    margin-top: 4.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5rem;
 }
 
 .home {
@@ -21,7 +18,7 @@ body {
     text-decoration: none;
     color: rgb(229, 237, 240);
     font-family: 'Freestyle Script';
-    font-size: 28px;
+    font-size: 27px;
     margin: 0 3.8rem 0 3.8rem;
 }
 
@@ -33,13 +30,6 @@ body {
 p{
     color:white;
     font-family: 'Nanum Gothic', sans-serif;
-}
-
-.menu {
-    text-decoration: none;
-    color: rgb(229, 237, 240);
-    font-family: 'Freestyle Script';
-    font-size: 28px;
 }
 
 .menu:hover {
